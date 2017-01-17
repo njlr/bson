@@ -559,8 +559,8 @@ buildvariants:
   tasks:
     - name: "release-compile"
 
-- name: mingw
-  display_name: "MinGW"
+- name: windows-64-mingw
+  display_name: "MinGW-W64 Windows"
   expansions:
     CC: "mingw"
   run_on:
