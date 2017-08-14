@@ -1,0 +1,29 @@
+cxx_binary(
+  name = 'bson-to-json',
+  srcs = [
+    'bson-to-json.c',
+  ],
+  deps = [
+    '//:bson',
+  ],
+)
+
+cxx_binary(
+  name = 'hello_bson',
+  srcs = [
+    'hello_bson.c',
+  ],
+  deps = [
+    '//:bson',
+  ],
+)
+
+cxx_binary(
+  name = 'bcon-speed',
+  srcs = [
+    'bcon-speed.c',
+  ],
+  deps = [
+    '//:bson',
+  ],
+)
