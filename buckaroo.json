@@ -1,4 +1,4 @@
 {
   "name": "bson",
-  "target": ":bson"
+  "target": "bson"
 }
